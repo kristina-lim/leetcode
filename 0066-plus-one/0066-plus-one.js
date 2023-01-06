@@ -3,11 +3,12 @@
  * @return {number[]}
  */
 var plusOne = function(digits) {
-    let total = 1n;
-    number = BigInt(digits.join(''));
-    total += number;
-    let result = total.toString().split('');
-    return result;
+    // let total = 1n;
+    // number = BigInt(digits.join(''));
+    // total += number;
+    // let result = total.toString().split('');
+    // return result;
     // not right... but good job for trying kris
-    // return (BigInt(digits.join('') + 1n)).toString().split('');
+    // return (String(+digits.join('') + 1)).split('');
+    return (BigInt(digits.join('')) + 1n).toString().split('');
 };
