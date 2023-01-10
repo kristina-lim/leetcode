@@ -12,7 +12,7 @@ var fizzBuzz = function(n) {
         } else if (i % 5 === 0) {
             result.push("Buzz");
         } else {
-            result.push(i.toString());
+            result.push(String(i));
         }
     }
     return result;
