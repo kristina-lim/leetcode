@@ -16,4 +16,11 @@ class Solution:
                 return False
             
         return True
+
+# Another solution that works, same runtime and space complexity, but above answer better
+        # return Counter(s) ==  Counter(t)
+    
+# Another solution that works, memory is O(1)
+        # return sorted(s) == sorted(t)
+
         
